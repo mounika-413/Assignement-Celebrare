@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="header">
+        <img class="image" id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjBV79JW_cHyGFS-QhDfW2uYs_wM2htJctZg&s" alt="image" />
+        <div class="buttons-container">
+            <button class="buttons" id="undo-btn"><i class="fa-solid fa-arrow-rotate-left"></i>Undo</button>
+            <button class="buttons" id="redo-btn"><i class="fa-solid fa-arrow-rotate-right"></i>Redo</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="middle" id="text-container"></div>
+    </div>
+    <div class="footer">
+        <div class="style">
+          <div class="font-container">
+            <div class="font-size">
+                <p>FontSize</p>
+                <button class="size-buttons" id="decrease-font-btn">-</button>
+                <button class="size-buttons" id="increase-font-btn">+</button>
+            </div>
+            <button class="style-button" id="bold-btn"><i class="fa-solid fa-bold"></i></button>
+            <button class="style-button" id="italic-btn"><i class="fa-solid fa-italic"></i></button>
+            <button class="style-button" id="alignment-btn"><i class="fa-solid fa-align-center"></i></button>
+            <button class="style-button" id="underline-btn"><i class="fa-solid fa-underline"></i></button>
+          </div>
+          <div>
+            <button class="input-button" id="add-text-btn"><input id="text-input" type="text" placeholder="Add Text " /></button>
+            <button id="delete-button" class="delete-button">Delete</button>
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>

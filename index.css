@@ -1,0 +1,121 @@
+  .title {
+      color: #5C6AC4;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .main-container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .header {
+    display: flex;
+    background-color:#ccc;
+    align-items: center;
+    height: 100px;
+  }
+  .image{
+    height:70px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid white;
+    
+  }
+  
+  .buttons-container  {
+    margin-left: 10px;
+    align-self: center;
+    padding-left:40% ;
+
+  }
+  .buttons{
+    height: 60px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .middle {
+    border: 1px solid #ccc;
+    min-height: 300px;
+    margin: 30px 0;
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ccc;
+    height: 160px;
+
+}
+  
+  .style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .font-container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .font-size{
+    padding-right:100px;
+  }
+  
+  .size-buttons{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .style-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .input-button{
+    background-color: transparent;
+    border: none;
+  }
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .delete-button{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  
